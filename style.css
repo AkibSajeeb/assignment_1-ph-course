@@ -109,12 +109,16 @@ nav button {
     background: rgba(13, 19, 33, 0.02);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
 
 .section-title {
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 24px;
+    width: 852px;
+    height: 39px;
 }
 
 .section-title h2 {
@@ -125,8 +129,9 @@ nav button {
 }
 
 .section-desc {
-    margin-top: 24px;
     margin-bottom: 48px;
+    width: 852px;
+    height: 52px;
 }
 
 .section-desc p {
@@ -220,4 +225,21 @@ nav button {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+}
+
+.my-insparation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-video {
+    height: 614px;
+    padding: 32px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    align-items: center;  
 }
