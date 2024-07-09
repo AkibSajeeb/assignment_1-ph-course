@@ -227,8 +227,8 @@ nav button {
     margin-bottom: 80px;
 }
 
-/* My insparation section styles */
-.my-insparation,
+/* My inspiration section styles */
+.my-inspiration,
 .my-current-target,
 .my-next-target {
     display: flex;
@@ -358,17 +358,18 @@ nav button {
     margin-bottom: 24px;
 }
 
-.suggest-form {
+/* Form style */
+#suggest-form {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
     width: 548px;
     height: 57px;
     color: rgba(13, 19, 33, 0.4);
-font-size: 16px;
-font-weight: 400;
-text-align: left;
-padding: 19px 20px 19px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 19px 20px 19px 20px;
 }
 
 .submit-btn {
@@ -382,4 +383,30 @@ padding: 19px 20px 19px 20px;
     font-weight: 600;
     text-align: center;
     padding: 17px 20px 17px 20px;
+}
+
+/* Footer styles */
+#footer-section {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title h2 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 32px 150px;
+}
+
+.social-links {
+    gap: 24px;
+    margin: 32px 150px;
+}
+
+.social-links img {
+    width: 36px;
+    height: 36px;
 }
