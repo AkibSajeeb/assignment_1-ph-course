@@ -229,7 +229,8 @@ nav button {
 
 /* My insparation section styles */
 .my-insparation,
-.my-current-target {
+.my-current-target,
+.my-next-target {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -281,7 +282,7 @@ nav button {
     margin-bottom: 40px;
 }
 
-.programming-languages{
+.programming-languages {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,7 +290,9 @@ nav button {
     margin: 48px auto;
 }
 
-.html, .css, .javascript {
+.html,
+.css,
+.javascript {
     width: 364px;
     height: 300px;
     border-radius: 16px;
@@ -300,17 +303,83 @@ nav button {
     align-items: content;
 }
 
-.css{
-background: rgba(0, 76, 232, 0.05);
+.css {
+    background: rgba(0, 76, 232, 0.05);
 }
 
-.javascript{
-background: rgba(255, 223, 0, 0.05);
+.javascript {
+    background: rgba(255, 223, 0, 0.05);
 }
 
-.html-icon, .css-icon, .javascript-icon {
+.html-icon,
+.css-icon,
+.javascript-icon {
     width: 39.68px;
     height: 56px;
     margin-top: 40px;
-    margin-left: 40px;  
+    margin-left: 40px;
+}
+
+/* Support section styles */
+.support-container {
+    width: 1140px;
+    height: 313px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    background-image: url(/images/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.support-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    width: 606px;
+    margin-bottom: 24px;
+}
+
+.suggest-form {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+padding: 19px 20px 19px 20px;
+}
+
+.submit-btn {
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
 }
