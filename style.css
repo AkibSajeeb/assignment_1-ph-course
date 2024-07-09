@@ -44,7 +44,7 @@ nav button {
     width: 1440px;
     min-height: 652px;
     margin: 50px auto;
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(./images/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +327,7 @@ nav button {
     margin: 50px auto;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2);
-    background-image: url(/images/handshake.jpg);
+    background-image: url(./images/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
